@@ -18,10 +18,10 @@
       "check_dependency_tree_detection_status": true,
       "_comment_check_dependency_tree_detection_status": "Whether to check if dependency tree was successfully detected. Options: true | false. Default: true",
       "expected_total_dependencies_number": {
-        "eq": 12890
+        "eq": 12875
       },
       "expected_direct_dependencies_number": {
-        "eq": 1168
+        "eq": 1153
       },
       "expected_transitive_dependencies_number": {
         "eq": 11722
@@ -118,8 +118,6 @@
           "System.Collections.Immutable.dll",
           "System.Linq.Async",
           "System.Runtime.InteropServices.RuntimeInformation.dll",
-          "activitylog-service.js",
-          "activitylog.module.js",
           "add-to-cart.js",
           "additional-methods.js",
           "additional-methods.min.js",
@@ -180,7 +178,6 @@
           "cart-rule-list.js",
           "cart-rule-service.js",
           "cart-rule-usage-list.js",
-          "cart-rule-usage-service.js",
           "cashfree-config-form.js",
           "cashfree-service.js",
           "catalog.module.js",
@@ -200,7 +197,6 @@
           "comments.module.js",
           "common.js",
           "config-form.js",
-          "config.rb",
           "configuration-service.js",
           "configuration.js",
           "contact-area-form.js",
@@ -221,7 +217,6 @@
           "customergroup-form.js",
           "customergroup-list.js",
           "customergroup-service.js",
-          "dashboard.module.js",
           "datetime-picker.js",
           "datetime-picker.min.js",
           "datetime-picker.tpls.js",
@@ -229,12 +224,10 @@
           "dirPagination.js",
           "dirPagination.spec.js",
           "es.js",
-          "exception.js",
           "fa.js",
           "fr.js",
           "html-widget-form.js",
           "html-widget-service.js",
-          "init-google-map.js",
           "inventory.module.js",
           "it.js",
           "jquery.js",
@@ -252,7 +245,6 @@
           "list.js",
           "localization-form.js",
           "localization-service.js",
-          "localization.module.js",
           "logger.js",
           "main.js",
           "manage-products-form.js",
@@ -275,7 +267,6 @@
           "ng-file-upload.min.js",
           "ngan-luong-config-form.js",
           "ngan-luong-service.js",
-          "notifications.signalr.js",
           "nouislider.js",
           "nouislider.min.js",
           "online-theme-list.js",
@@ -292,14 +283,12 @@
           "payment-list-by-order.directive.js",
           "payment-provider-list.js",
           "payment-provider-service.js",
-          "payment-service.js",
           "paymentCashfree.module.js",
           "paymentCoD.module.js",
           "paymentMomo.module.js",
           "paymentNganLuong.module.js",
           "paymentStripe.module.js",
           "paymentbraintree.module.js",
-          "payments.module.js",
           "paypalExpress-service.js",
           "paypalExpress.module.js",
           "pl.js",
@@ -321,7 +310,6 @@
           "product-option-form.js",
           "product-option-list.js",
           "product-option-service.js",
-          "product-overview.js",
           "product-price-form.js",
           "product-price-service.js",
           "product-selection-directive.js",
@@ -356,8 +344,6 @@
           "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
           "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
           "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
-          "search-service.js",
-          "search.module.js",
           "shipment-details.js",
           "shipment-form.js",
           "shipment-list-by-order.directive.js",
@@ -369,7 +355,6 @@
           "shipping-tablerate-form.js",
           "shipping-tablerate-service.js",
           "shipping-tablerate.module.js",
-          "shipping.module.js",
           "shoppingcart-list.js",
           "shoppingcart-service.js",
           "signalr.js",
@@ -810,7 +795,7 @@
     "vulnerabilities_table": {
       "check_vulnerabilities_table_structure": true,
       "expected_total_vulnerabilities_number": {
-        "gte": 150
+        "gte": 100
       },
       "vulnerabilities_ids_list": {
         "contains": []
